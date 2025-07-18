@@ -53,6 +53,8 @@ go.sum
 # Environment and secret files
 
 .env
+config/*.json
+secrets.yam1
 
 
 
