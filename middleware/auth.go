@@ -19,8 +19,7 @@ import (
 )
 
 
-
-// 🔐 Secret must match the one used to sign JWT
+// Secret must match the one used to sign JWT
 
 var jwtKey = []byte("my_secret_key")
 
@@ -39,19 +38,13 @@ authHeader := c.GetHeader("Authorization")
 if authHeader == "" || !strings.HasPrefix(authHeader, "Bearer ") {
 
 c.JSON(http.StatusUnauthorized, gin.H{"error": "Missing or invalid token"})
-
 c.Abort()
-
 return
 
 }
 
-
-
 // Strip the "Bearer " prefix
-
 tokenString := strings.TrimPrefix(authHeader, "Bearer ")
-
 // Custom struct to extract the user ID
 
 claims := &struct {
