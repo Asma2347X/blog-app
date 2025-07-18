@@ -2,8 +2,8 @@ package controllers
 import (
 "net/http"
 "github.com/gin-gonic/gin"
-"github.com/Asma2347x/blog-app/models" // import your Post/User models
-"github.com/Asma2347x/blog-app/config" // DB connection
+"github.com/Asma2347X/blog-app/models" // import your Post/User models
+"github.com/Asma2347X/blog-app/config" // DB connection
 "github.com/golang-jwt/jwt/v4"         // for JWT claims
 "github.com/google/uuid"               // for UUIDs
 )

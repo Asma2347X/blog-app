@@ -7,8 +7,8 @@ import (
 "github.com/google/uuid"
 "github.com/golang-jwt/jwt/v4"
 "golang.org/x/crypto/bcrypt" //  For password hashing
-"github.com/Asma2347x/blog-app/models" // User struct
-"github.com/Asma2347x/blog-app/config" // DB connection
+"github.com/Asma2347X/blog-app/models" // User struct
+"github.com/Asma2347X/blog-app/config" // DB connection
 )
 // Secret key used to sign JWT tokens
 var jwtKey = []byte("my_secret_key")
