@@ -2,8 +2,7 @@ package config
 import (
 "fmt"
 "log"
-"os"
-"github.com/Asma2347X/blog-app/config"     // loads .env
+"os"     // loads .env
 "gorm.io/driver/postgres"        // Postgres driver for GORM
 "gorm.io/gorm"                   // GORM ORM
 "github.com/joho/godotenv"
