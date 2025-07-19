@@ -1,65 +1,9 @@
-```gitignore
-
-# Binaries for programs and dependencies
-
-*.exe
-
-*.exe~
-
-*.dll
-
-*.so
-
-*.dylib
-
-
-
-# Test binary, cache, and logs
-
-*.test
-
-*.out
-
-*.log
-
-
-
-# Output of go build
-
-build/
-
-
-
-# Dependency directories
-
-vendor/
-
-
-
-# Go module cache
-
-go.sum
-
-
-
-# IDE/editor settings
-
-.vscode/
-
-.idea/
-
-
 
 # Environment and secret files
-
 .env
 config/*.json
 secrets.yam1
 
 
 
-# System files
 
-.DS_Store
-
-Thumbs.db
